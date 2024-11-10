@@ -5,7 +5,7 @@ VERSION = 1.9
 # Login to Docker Hub
 login:
 	@echo "Logging into Docker Hub..."
-	docker login -u $(DOCKER_USERNAME) -p pk.99@123
+	docker login -u $(DOCKER_USERNAME) -p 
 
 # Build the Docker image with version tagging
 build:
