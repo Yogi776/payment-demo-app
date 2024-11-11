@@ -51,7 +51,6 @@ export default function Home() {
         </div>
       </main>
       <footer className="mt-16">
-        <p>This is for a demo purpose only. Doesn&apos;t represent actual flow / implementation</p>
       </footer>
     </div>
   );
