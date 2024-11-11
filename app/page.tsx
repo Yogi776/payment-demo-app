@@ -10,9 +10,9 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
-       <main style={{ width: '80%', height: 'calc(100vh - 4rem)' }} className="w-full"> 
+       <main style={{ width: '90%', height: 'calc(100vh - 10vh)' }} className="w-full"> 
         <div>
-          <h1 style={{ color: '#2B323C', textAlign: 'center', marginBottom: '50px', fontSize: '40px', fontFamily: 'Arial', fontWeight: '300', marginTop: '20px' }}>
+          <h1 style={{ color: '#2B323C', textAlign: 'center', marginBottom: '50px', fontSize: '40px', fontFamily: 'Arial', fontWeight: '300', marginTop: '-30px' }}>
             User Payment Simulation
           </h1>
         </div>
@@ -27,7 +27,7 @@ export default function Home() {
           </div>
           <div className="divider divider-horizontal"></div>
           <div className="card bg-base-300 rounded-box p-8 grid flex-grow place-items-center">
-            <div className="mockup-phone">
+            <div className="mockup-phone" style={{ marginTop: '-52px'}}>
               <div className="camera"></div>
               <div className="display">
                 <div className="artboard artboard-demo phone-1 justify-end">
