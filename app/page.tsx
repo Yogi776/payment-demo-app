@@ -13,10 +13,10 @@ export default function Home() {
       <main className=" w-full h-full">
         <div className="flex w-full">
           <div className="card bg-base-300 rounded-box grid flex-grow place-items-center">
-            <Image src="assets/pos.svg" width={"500"} height={"500"} alt="POS" />
+            <img src="assets/process_payment.png" width={500} height={500} alt="POS" />
             <div className=" space-x-4">
               <button onClick={() => fetchMessage()} className="btn btn-accent">
-                { messages.length > 0 ? "Re-Process" : "Process" }
+                { messages.length > 0 ? "RE-PROCESS PAYMENT" : "PROCESS PAYMENT" }
               </button>
             </div>
           </div>
@@ -39,7 +39,6 @@ export default function Home() {
                       <input type="text" className="flex-1 input input-bordered input-sm" placeholder="Type your message" />
                       <button className="btn btn-circle">
                         {
-                          loading ? <span className="loading loading-spinner loading-xs"></span> :
                           <Image src={'assets/paper-plane-right-light.svg'} alt="Send" width={24} height={24} />
                         }
                       </button>
