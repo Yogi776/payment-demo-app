@@ -7,13 +7,6 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   color: var(--foreground);
   background: var(--background);
@@ -128,5 +121,5 @@ body {
 }
 
 element.style {
-  background-color: #F04F23;
+  background-color: #F04F23 !important;
 }
