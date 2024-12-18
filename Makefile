@@ -1,7 +1,7 @@
 # Variables
 DOCKER_USERNAME = modern123
 IMAGE_NAME = inmoment_intelligence_app
-VERSION = 1.12
+VERSION = 1.14
 
 # Build the Docker image with version tagging
 build:

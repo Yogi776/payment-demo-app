@@ -34,7 +34,7 @@ service:
       memory: 1024Mi
   envs:
     LOG_LEVEL: info
-    DATAOS_ENV: 'https://cheerful-maggot.dataos.app' 
+    DATAOS_ENV: 'https://known-racer.dataos.app' 
   stackSpec:
     command:
       - "npm"
